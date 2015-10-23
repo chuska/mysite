@@ -15,7 +15,7 @@ public class WriteFormAction implements Action {
 	public void execute(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-WebUtil.forwarding(request, response, "/views/board/writeform.jsp");
+		WebUtil.forwarding(request, response, "/views/board/writeform.jsp");
 	}
 
 }
